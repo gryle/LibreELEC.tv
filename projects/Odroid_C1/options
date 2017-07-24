@@ -113,11 +113,7 @@
   # for a list of additinoal drivers see packages/linux-drivers
   # Space separated list is supported,
   # e.g. ADDITIONAL_DRIVERS="DRIVER1 DRIVER2 RTL8188EU"
-<<<<<<< HEAD
     ADDITIONAL_DRIVERS="RTL8192CU RTL8192DU RTL8192EU RTL8812AU RTL8188EU"
-=======
-    ADDITIONAL_DRIVERS="RTL8192CU RTL8192DU RTL8192EU RTL8812AU"
->>>>>>> a74b59279fb6f5e15011a5e24a9d1ec6554c2e1f
 
   # additional Firmware to use (dvb-firmware, misc-firmware, wlan-firmware)
   # Space separated list is supported,
@@ -130,36 +126,12 @@
   # Amlogic IR remote support (yes / no)
     AMREMOTE_SUPPORT="no"
 
-<<<<<<< HEAD
- # Odroid IR remote support (yes / no)
-    HKREMOTE_SUPPORT="yes"
-
-  # build with swap support (yes / no)
-    SWAP_SUPPORT="no"
-
-  # swap support enabled per default (yes / no)
-    SWAP_ENABLED_DEFAULT="no"
-
-  # swapfile size if SWAP_SUPPORT=yes in MB
-    SWAPFILESIZE="128"
-
-=======
->>>>>>> a74b59279fb6f5e15011a5e24a9d1ec6554c2e1f
   # build with installer (yes / no)
     INSTALLER_SUPPORT="no"
 
   # kernel image name
     KERNEL_NAME="KERNEL"
 
-<<<<<<< HEAD
-  # build and install CEC adapter support (yes / no)
-    CEC_SUPPORT="yes"
-
-  # build and install OpenVPN support : Override
-    OPENVPN_SUPPORT="yes"
-
-=======
->>>>>>> a74b59279fb6f5e15011a5e24a9d1ec6554c2e1f
   # set the addon dirs
     ADDON_PATH="$ADDON_VERSION/WeTek_Play/$TARGET_ARCH"
     ADDON_URL="$ADDON_SERVER_URL/$ADDON_PATH"

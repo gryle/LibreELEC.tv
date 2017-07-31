@@ -57,7 +57,7 @@
     KERNEL_MAKE_EXTRACMD="dtbs"
 
   # Kernel to use. values can be:
-    CUSTOM_VERSION="8.0.4b"
+    CUSTOM_VERSION="8.0.4bRE"
     LINUX="custom"
     KERNEL_VERSION="3eeaf4f"
     KERNEL_SOURCE_DIR="linux-C1-$KERNEL_VERSION*"
@@ -135,3 +135,7 @@
   # set the addon dirs
     ADDON_PATH="$ADDON_VERSION/WeTek_Play/$TARGET_ARCH"
     ADDON_URL="$ADDON_SERVER_URL/$ADDON_PATH"
+
+  # OEM packages for OEM's (yes / no)
+    OEM_SUPPORT="yes"
+

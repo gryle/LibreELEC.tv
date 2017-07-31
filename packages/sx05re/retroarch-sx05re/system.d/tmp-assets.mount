@@ -1,0 +1,13 @@
+[Unit]
+Description=Assets directory
+After=storage.mount
+After=systemd-tmpfiles-setup.service
+
+[Mount]
+What=none
+Where=/tmp/assets
+Type=overlayfs
+Options=lowerdir=/usr/share/retroarch-assets,upperdir=/storage/assets
+
+[Install]
+WantedBy=kodi.target

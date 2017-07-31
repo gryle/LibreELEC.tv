@@ -362,4 +362,8 @@ post_install() {
   enable_service kodi-waitonnetwork.service
   enable_service kodi.service
   enable_service kodi-lirc-suspend.service
+
+#sx05RE
+  enable_service gui-switch.service
+
 }

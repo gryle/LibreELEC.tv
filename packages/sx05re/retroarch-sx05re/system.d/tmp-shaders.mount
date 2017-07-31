@@ -1,0 +1,12 @@
+[Unit]
+Description=Shaders directory RetroArch
+After=systemd-tmpfiles-setup.service
+
+[Mount]
+What=none
+Where=/tmp/shaders
+Type=overlayfs
+Options=lowerdir=/usr/share/common-shaders,upperdir=/storage/shaders
+
+[Install]
+WantedBy=kodi.target

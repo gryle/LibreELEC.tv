@@ -1,0 +1,13 @@
+[Unit]
+Description=Database directory
+After=storage.mount
+After=systemd-tmpfiles-setup.service
+
+[Mount]
+What=none
+Where=/tmp/database
+Type=overlayfs
+Options=lowerdir=/usr/share/libretro-database,upperdir=/storage/database
+
+[Install]
+WantedBy=kodi.target

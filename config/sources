@@ -1,2 +1,6 @@
 # Sourceforge download site
   SOURCEFORGE_SRC="http://prdownloads.sourceforge.net"
+
+# Lakka source
+  LAKKA_MIRROR="http://sources.lakka.tv"
+
